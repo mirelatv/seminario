@@ -37,3 +37,23 @@ nav{
 .box-header{
   display: inline-block;
 }
+.logo-square{
+  width: 100px;
+}
+section{
+text-align: center;
+}
+div{
+  display: inline-block;
+  width: 30%;
+  padding: 2px
+}
+footer{
+  background-color: #303030;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+li:hover {
+  color: gold;
+}
