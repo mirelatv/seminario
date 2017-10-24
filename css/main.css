@@ -1,0 +1,39 @@
+/*setear mi css*/
+body{
+  margin: 0:auto;
+  padding:0;
+  box-sizing: border-box;
+  color:#303030;
+font-family: sans-serif;
+}
+/*clases reutilizables*/
+.text-uppercase{
+  text-transform: uppercase;
+}
+/*clases especificas*/
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+  display: inline;
+  list-style: none;
+  padding:5px;
+
+}
+.logo-header{
+  width: 200px;
+}
+header{
+  position: relative;
+  }
+
+nav{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.box-header{
+  display: inline-block;
+}
